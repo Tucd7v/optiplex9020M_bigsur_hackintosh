@@ -17,10 +17,9 @@
 
 >目前使用的ig-platform-id为0300220D，即桌面处理器的framebuffer，Geekbench跑分在3400-3600左右.
 如果更改为0600260A，即笔记本的framebuffer，geekbench跑分可以达到3900-4100左右.
->> 更改为笔记本framebuffer出现的问题:
 
+> 更改为笔记本framebuffer出现的问题:
 开机时屏幕会短时间花屏.
-
 运行heaven进行压力测试时 可以看到核心显卡频率短暂达到最高调度：即1.15Ghz,但是屏幕会黑屏闪烁.
 ***
 ## 相同配置使用本EFI之前要求的操作
