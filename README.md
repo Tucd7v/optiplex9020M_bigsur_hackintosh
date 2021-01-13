@@ -1,5 +1,8 @@
 # 戴尔9020M黑苹果EFI配置
 ## 本EFI基于[li3p](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore)的基础上对以下关键配置进行了适配。
+
+你如果看到这段文字，代表你下载的EFI已经解决下面提到的问题。
+
 ***
 + CPU:i7-4750HQ
 + WIFI/蓝牙:DW1830
@@ -49,4 +52,5 @@
 >>相关教程https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#enabling-x86platformplugin
 >>如果不进行变频配置 睡眠可能会出现问题。
 
->（偶尔）开机时会出现输入设备反应迟钝的问题。本来以为是USBmap的问题，配置之后问题依旧，但是出现次数并不多，而且不是一定出现。
+>~~（偶尔）开机时会出现输入设备反应迟钝的问题。本来以为是USBmap的问题，配置之后问题依旧，但是出现次数并不多，而且不是一定出现。~~
+已经解决。启动项内加入agdpmod=vit9696后开机鼠标卡顿问题消失。
