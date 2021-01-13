@@ -1,6 +1,8 @@
 # 戴尔9020M黑苹果EFI配置
 ## 本EFI基于[li3p](https://github.com/li3p/dell-optiplex-9020-hackintosh-opencore)的基础上对以下关键配置进行了适配。
 
+当你看到这段文字时，下面提到的问题均已在EFI内解决。
+
 ***
 + CPU:i7-4750HQ
 + WIFI/蓝牙:DW1830
