@@ -13,8 +13,9 @@
 + USB正确映射
 ***
 关于核心显卡性能的一些更新：
-如果你需要使用4K显示器，请在DeviceProperties-PciRoot(0x0)/Pci(0x2,0x0)内添加:framebuffer-unifiedmem 00000080。
-/目前使用的ig-platform-id为0300220D，即桌面处理器的framebuffer，Geekbench跑分在3400-3600左右.
+> 如果你需要使用4K显示器，请在DeviceProperties-PciRoot(0x0)/Pci(0x2,0x0)内添加:framebuffer-unifiedmem 00000080。
+
+>目前使用的ig-platform-id为0300220D，即桌面处理器的framebuffer，Geekbench跑分在3400-3600左右.
 如果更改为0600260A，即笔记本的frambuffer，geekbench跑分可以达到3900-4100左右,但是开机后会有几秒出现花屏的问题.
 更改ig-platform-id暂未发现除开机后短暂花屏的其他问题
 ***
