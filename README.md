@@ -8,7 +8,8 @@
 + WIFI/蓝牙:DW1830
 ***
 ### 目前已经完成的功能
-+ 休眠
++ 睡眠（支持蓝牙唤醒，再此模式下整机功耗5-10W，默认优先为此模式）
++ 休眠（不支持蓝牙唤醒，在此模式下功耗0.8W，手动点击苹果logo，睡眠）
 + Airdrop与Handoff
 + 正常变频
 + 开机音效
@@ -54,7 +55,7 @@
 ### 目前发现的问题
 > 如果你使用的是黑果小兵的安装引导，可能会出现无法进入安装界面的情况，可以将Opencore更新到最新版本。并将此EFI内的ACPI文件替换到引导盘里。
 
-> 一些USB键盘会将电脑从C6睡眠唤醒
+> 一些USB键盘会将电脑从休眠唤醒
 
 > 如果是使用其他型号的CPU，你需要重新配置SSDT-EC.aml和SSDT-PLUG.aml，CPUFriendDataProvider，来获得最佳的变频性能。
 >>相关教程https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#enabling-x86platformplugin
