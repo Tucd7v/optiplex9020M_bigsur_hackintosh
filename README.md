@@ -61,7 +61,7 @@
 >>相关教程https://dortania.github.io/OpenCore-Post-Install/universal/pm.html#enabling-x86platformplugin
 >>如果不进行变频配置 睡眠可能会出现问题。
 
-
+> 从休眠唤醒后， “隔空投送”频道会被限制到6，此时隔空投送失效，可以通过重新开关WIFI和蓝牙来暂时解决。
 
 >~~（偶尔）开机时会出现输入设备反应迟钝的问题。本来以为是USBmap的问题，配置之后问题依旧，但是出现次数并不多，而且不是一定出现。~~
 已经解决。启动项内加入agdpmod=vit9696后开机输入设备卡顿的问题消失。
